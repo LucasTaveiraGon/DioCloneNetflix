@@ -1,0 +1,44 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho); 
+    font-family: 'Arial', Helvetica; 
+    font-size: 40px;
+    justify-content: left;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;  
+}
+header nav a:hover{
+    color: #afffaf; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50),rgba(0,0,0, .50)100%),url('/Aula01/img/capa-house.jpg');
+    background-size: cover;
+    height: 400px;
+
+}   
