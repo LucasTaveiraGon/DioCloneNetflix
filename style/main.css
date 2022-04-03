@@ -90,9 +90,10 @@ header nav a:hover{
     display: block;
 
 }
-.botoes button:hover{
+.botao:hover{
     background-color: #ffffff;
     color: #ee0d0d; 
     font-family: 'Marvel', sans-serif;
     cursor:pointer;
+    
 }
