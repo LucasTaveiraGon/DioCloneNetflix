@@ -21,8 +21,8 @@ header .container{
 }
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
-    /*background-color: var(--vermelho);*/ 
+    color: var(--branca);
+    background-color: var(--vermelho); 
     font-family: 'Marvel', sans-serif;
     font-size: 50px;
     justify-content: left;
@@ -31,16 +31,16 @@ header .logo{
 
 header nav a{
     text-decoration: none;
-    color: #aaa;
+    color: rgb(255, 0, 0);
     margin-right: 10px;  
 }
 header nav a:hover{
-    color: #afffaf; 
+    color: #ffffff; 
     font-family: 'Marvel', sans-serif;
 }
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0, .50),rgba(0, 0, 0, .50)),url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0, .50),rgba(0, 0, 0, .50)),url('/img/capa-marvel.jpg');
     background-size: cover;
     height: 400px;
     display: flex;
@@ -86,3 +86,4 @@ header nav a:hover{
     display: block;
 
 }
+
