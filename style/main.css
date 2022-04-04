@@ -10,7 +10,7 @@
 }
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Marvel', sans-serif;
     color:rgb(255, 255, 255);
 }
 header .container{
@@ -24,7 +24,7 @@ header .logo{
     margin-left: 5px;
     color: var(--branca);
     background-color: var(--vermelho); 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Marvel', sans-serif;
     font-size: 50px;
     justify-content: left;
     
@@ -51,18 +51,18 @@ header nav a:hover{
     
 }   
 .filme-principal .descricao{
-   background:linear-gradient(rgba(255, 0, 0, .50), rgba(0,0,0, .50)) ;
-    padding: 3%;
+    background:linear-gradient(rgba(255, 0, 0, .50), rgba(0,0,0, .50)) ;
+    padding: 1%;
     margin-bottom: 20px;
     font-style:oblique, bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Marvel', sans-serif;
     font-size: 15px;
 }
 .titulo{
     margin-top: 15%;
     margin-bottom: 2%;
     font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Marvel', sans-serif;
 }
 
 .botao{
