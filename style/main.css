@@ -2,11 +2,13 @@
     --vermelho: #e50914;
     --preta: #141414;
     --branca: #ffffff;
+    background: var(--preta);
 }
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background: var(--preta);
 }
 body{
     background: var(--preta);
@@ -99,4 +101,8 @@ header nav a:hover{
     font-style: bold;
     font-size: 18px;
     
+}
+
+.linke{
+ background: var(--preta);
 }
